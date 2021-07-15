@@ -1,0 +1,40 @@
+div{
+    background-color: #99b898;
+}
+.one{
+    background-color: #fecea8;
+    height: 100px;
+}
+.two{
+    display: inline-block;
+    background-color: #2a363b;
+    height: 200px;
+}
+
+section .two{
+    float: left;
+    width: 78%;
+}
+
+aside .two{
+    float: right;
+    width: 20%;
+}
+
+footer div{
+    clear: both;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    grid-column: span;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+  }
+  .grid-item{
+      background-color: grey;
+      display: inline-block;
+}
+
