@@ -14,7 +14,7 @@ body
     min-height: 100vh;
     background: #ebf5fc;
 }
-.container
+.card-container
 { 
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body
     flex-wrap: wrap;
     padding: 40px 0;
 }
-.container .card
+.card-container .card
 { 
     position: relative;
      width: 320px;
@@ -36,7 +36,7 @@ body
     margin: 30px;
 
 }
-.container .card .box
+.card-container .card .box
 { 
     position: absolute;
     top: 20px;
@@ -50,19 +50,19 @@ body
     justify-content: center;
     align-items: center;
 }
-.container .card:hover .box
+.card-container .card:hover .box
 { 
     transform: translateY(-50px);
     box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
     background: linear-gradient(45deg,#b95ce4,#4f29cd);
     border: groove rgba(0, 0, 0, 0.116) 2px;
 }
-.container .card .box .content
+.card-container .card .box .content
 { 
     padding: 20px;
     text-align: center;
 }
-.container .card .box .content h2
+.card-container .card .box .content h2
 { 
     position: absolute;
     top: -10px;
@@ -72,18 +72,18 @@ body
     transition: 1s;
     pointer-events: none;
 }
-.container .card:hover .box .content h2 
+.card-container .card:hover .box .content h2 
 { 
     color: rgba(0,0,0,0.05);
 }
-.container .card .box .content h3
+.card-container .card .box .content h3
 { 
     font-size: 1.8em;
     color: #777;
     z-index: 1;
     transition: 1s;
 }
-.container .card .box .content p
+.card-container .card .box .content p
 { 
     font-size: 1em;
     font-weight: 300;
@@ -91,8 +91,8 @@ body
     z-index: 1;
     transition: 1s;
 }
-.container .card:hover .box .content h3,
-.container .card:hover .box .content p
+.card-container .card:hover .box .content h3,
+.card-container .card:hover .box .content p
 { 
     color: #fff;
 }

@@ -1,0 +1,51 @@
+#form{
+    display: table;
+}
+
+.class{
+    display: table-row;
+}
+
+select{
+    padding-left: 10px;
+    margin-bottom: 15px;
+
+}
+
+label, input{
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+label{
+    padding-right: 5px;
+}
+
+fieldset{
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+#gender{
+    border: none;
+}
+
+#Lang{
+    border: none;
+}
+
+input {
+    font-size: 14px;
+    width:100%;
+  }
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid #66cc99;;
+  }
+  input:hover{
+      background-color: whitesmoke;
+  }
+
+  ::placeholder{
+      color:orangered;
+  }

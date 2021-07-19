@@ -1,0 +1,96 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Registration Form</h1>
+
+</header>
+
+<div>
+    
+    <form id="form" method="GET" target="_blank">
+
+   <section class="class">        
+        <label for="UserId">User id:</label>
+    <input type="text" id="UserId" name="user_id" placeholder="Required, minimum 7 - 12 characters" required minlength="7" maxlength="12">
+   </section>
+
+   <section class="class">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="user_password" placeholder="Required, minimum 7 - 12 characters" required minlength="7" maxlength="12">
+   </section>
+
+   <section class="class">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" placeholder="Required, letters only" required>
+   </section>
+
+   <section class="class">
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="user_address" placeholder="Optional">
+   </section>
+
+   <section class="class">
+       <label for="country">Country:</label>
+    <select id="country" name="user_country" required>
+        <option value="None">-Required-</option>
+        <option value="South Africa">South Africa</option>
+        <option value="England">England</option>
+        <option value="New Zealand">New Zealand</option>
+    </select>
+   </section>
+
+   <section class="class">
+    <label for="zip">Zip Code:</label>
+    <input type="text" id="zip" name="user_zip_code" placeholder="Required, numeric only" required>
+   </section>
+
+   <section class="class">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="user_email" placeholder="Optional">
+   </section>
+
+   <section class="class">
+    <Label for="gender">Sex:</Label>
+    <fieldset id="gender">
+    <input type="radio" id="male" name="user_sex" value="male"><label for="male">Male</label>
+    <input type="radio" id="female" name="user_sex"><label for="female">Female</label>
+</fieldset>
+   </section>
+
+   <section class="class">
+       <label for="Lang">Language:</label>
+    <fieldset id="Lang">
+        <input type="radio" id="english" name="user_language" value="english"><label for="english">English</label>
+        <input type="radio" id="non-english" name="user_language"><label for="non-english">Non English</label>
+    </fieldset>
+   </section>
+
+   <section class="class">
+    <label for="about">About Me:</label>
+    <textarea id="about" name="user_message"></textarea>
+   </section>
+
+
+   <section class="class">
+    <input type="submit" id="submit"required>
+   </section>
+
+   
+</form>
+
+</div>
+
+</body>
+
+</html>

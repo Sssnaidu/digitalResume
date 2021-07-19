@@ -18,102 +18,309 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menu
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Work experience</a></li>
-                <li><a class="dropdown-item" href="#">Education</a></li>
-                <li><a class="dropdown-item" href="#Skills">Skills</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Socials</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+    <div class="container-fluid">
 
-    <div class="container">
       <div class="row">
 
-        <div class="column1 col-sm-12">
-          <div class="header">
-            <p class="header-paragraph">
-          <h1>Ethan Naidu</h1>
-          <h1>Front End Specialist</h1>
-            </p>
+        <div id="top" class="navbar-section">
+
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#about">About</a>
+              <a class="navbar-brand" href="#skills">Skills</a>
+              <a class="navbar-brand" href="#experience">Experience</a>
+              <a class="navbar-brand" href="#education">Education</a>
+              <a class="navbar-brand" href="#contact">Contact Me</a>
+            </div>
+          </nav>
+
+        </div>
+
+        <div class="header-section">
+
+          <div class="header-column col-sm-12">
+
+          <div class="header-text">
+
+            <h1 class="display-1">Ethan Naidu</h1>
+            <h1 class="display-5">Web Developer</h1>
+
+          </div>
+
+        </div>
+
+        </div>
+
+        <div id="about" class="about-section">
+
+          <div class="about-column">
+
+            <div class="about-text col-sm-12">
+            <p>An ambitious individual with the dream of developing applications and interactive websites for a living.
+               I have a great passion for designing applications that can enhance daily procedures of individuals both personally and commercially</p>
+            <p>I thrive under pressure and use creative solutions to overcome obstructions of any sort. 
+               It is an enjoyable experience to develop new abilities and tackle new goals in the technilogical field. </p>
+            <p>I hope to offer my prospective employees unyielding dedication and tenacious discpiline.</p>
+            </div>
+
+            <div class="about-gif col-sm-12">
+              <img src="images/coding2.gif" style="width: 99%;">
+            </div>
+            
+          </div>
+
+        </div>
+
+        <div id="skills" class="skills-section">
+
+          <div class="skills-column col-sm-12">
+
+            <div class="section-title">
+
+              <h1>Skills</h1>
+
+            </div>
+
+          </div>
+
+            <div class="skills-column col-sm-6 offset-sm-3">
+
+              <div id="skills-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="skills-carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="../webdesignresume/images/icons/html1.png" class="d-block" alt="Html" width="100px" height="100px" >
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../webdesignresume/images/icons/css-3.png" class="d-block" alt="Css" width="100px" height="100px">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../webdesignresume/images/icons/java.png" class="d-block" alt="JavaScript" width="100px" height="100px">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../webdesignresume/images/icons/wordpress.png" class="d-block" alt="Wordpress" width="100px" height="100px">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../webdesignresume/images/icons/satisfaction.png" class="d-block" alt="Satisfaction" width="100px" height="100px">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../webdesignresume/images/icons/crm.png" class="d-block" alt="CRM" width="100px" height="100px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+
+        </div>
+
+        <div id="experience" class="experience-section">
+
+          <div class="section-title">
+            <h1>Work Experience</h1>
+          </div>
+
+          <div class="experience-columns">
+
+          <div class="experience-column col-sm-4">
+
+            <h3>VIP Gaming Support Specialist at 5CA</h3>
+            <h5>2020-present</h5>
+
+            <ul class="responsibilities">
+              <li>Handle all customer related queries regarding project.</li> 
+              <li>Research and develop new knowledge base resources.</li> 
+              <li>Technically analyse in game issues and provide best solutions.</li> 
+              <li>Coach various new agents and tenured agents to hone best practices.</li> 
+              </ul>
+
+          </div>
+
+          <div class="experience-column col-sm-4">
+
+            <h3>Freelance Wordpress Developer</h3>
+            <h5>2020-2021</h5>
+
+            <ul class="responsibilities">
+              <li>Managed a team of wordpress developers to create websites for clients.</li>
+              <li>Liase with clients to negotiate deals and requirements.</li>
+              <li>Develop fully functional websites with web hosting specific to client specifications.</li>
+              <li>Design online stores with fully functional checkouts.</li>
+              <li>Design online learning centers.</li>
+            </ul>
+
+          </div>
+
+          <div class="experience-column col-sm-4">
+
+            <h3>Technical Support Agent at Amazon</h3>
+            <h5>2019-2020</h5>
+
+            <ul class="responsibilities">
+              <li>Assist customers on a daily basis with digital troubleshooting of various devices and software.</li>
+              <li>Handle any general queries / account queries.</li>
+              <li>Share best practices for new recruits.</li>
+            </ul>
+
           </div>
         </div>
-        <div class="column-header col-sm-12">
-
-          <h2 id="Skills">Skills</h2>
-
-        </div>  
-
-        <div class="column2 col-sm-4">
-         
-          <div class="card-container">
-            <div class="card">
-                <div class="box">
-                    <div class="content">
-                     <h2>01</h2>
-                     <h3>HTML</h3>
-                     <p> HTML stands for HyperText Markup Language and its use in Web Development is to define the structure of a website.<br>
-                        It is one of the most basic part of Web Development.</p>
-                    </div>
-                </div>
-          </div> 
-        </div>
         </div>
 
-        <div class="column2 col-sm-4">
+        <div id="education" class="education-section">
 
-          <div class="card-container">
-          <div class="card">
-            <div class="box">
-                <div class="content">
-                 <h2>02</h2>
-                 <h3>CSS</h3>
-                 <p>CSS stands for Cascading Style Sheets
-                    CSS describes how HTML elements are to be displayed on screen, paper, or in other media
-                    CSS saves a lot of work. It can control the layout of multiple web pages all at once.
-                </p>
+          <div id= education-title class="section-title">
+            <h1>Education</h1>
+          </div>
+
+          <div class="education-columns">
+
+          <div class="education-column col-sm-4">
+
+            <h3>Matric Certificate Bachelors admission</h3>
+            <h5>De-Kuilen High School</h5>
+
+            <div class="modal-button">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#highschoolModal">
+              View details
+            </button>
+          </div>
+
+            <div id="highschoolModal" class="modal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">De-Kuilen High School</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Awarded matric certificate with admission to Bachelors degree.</p>
+                    <p>2010-2014</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>  
+
+          </div>
+
+          <div class="education-column col-sm-4">
+
+            <h3>Bcom General 4 Year ECP Extended Programme</h3>
+            <h5>University of the Western Cape</h5>
+
+            <div class="modal-button">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#universityModal">
+              View details
+            </button>
+            </div>
+            
+            <div id="universityModal" class="modal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">University of the Western Cape</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Incomplete Bachelors of commerce degree Majoring in Information Systems and Management.</p>
+                    <p>2015-2019</p>
+                    <p>Fully complete Information systems majors</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="education-column col-sm-4">
+
+            <h3>Mobile Application Software Development</h3>
+            <h5>Codespace</h5>
+
+            <div class="modal-button">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#developerModal">
+              View details
+            </button>
+          </div>
+
+            <div id="developerModal" class="modal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">CodeSpace</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Software Development course specialising in Front End Applications development for Websites and Mobile devices.</p>
+
+                    <h5>Courses:</h5>
+                    <p>Intro to Web design</p>
+                    <p>Web Design</p>
+                    <p>Interactive Web App Design</p>
+                    <p>Version Control Systems</p>
+                    <p>Front-End Frameworks</p>
+                    <p>Real-time Apps</p>
+                    <p>Mobile Development</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
         </div>
+        </div>
+
+        <div id="contact" class="contact-section">
+
+          <div class="contact-column col-sm-12">
+
+            <div class="contact-picture">
+
+              <picture>
+                <source media="(max-width:650px)" src="images/EthanBG-Mobile">
+                <source media="(max-width:1200px)" srcset="images/EthanBG-Tablet">
+                <source media="(max-width:2560px)" srcset="images/">
+                <img src="images/" alt="Profile Image">
+            </picture>
+
+            <div class="contact-form">
+
+            </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="footer-section">
+
+          <div class="footer-scroll">
+
+            <button type="button" class="btn btn-secondary">
+            <a id="scroll-to-top" class="navbar-brand" href="#top">Back to top</a>
+          </button>
+          </div>
+
+        </div>
+
       </div>
 
-        <div class="column2 col-sm-4">
-
-          <div class="card-container">
-          <div class="card">
-            <div class="box">
-                <div class="content">
-                 <h2>03</h2>
-                 <h3>JAVA-SCRIPT</h3>
-                 <p> It is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
-                </div>
-            </div>
-      </div>  
-    </div>
-  </div>
-        </div>
-
-      </div>
     </div>
 
     <!-- Optional JavaScript -->

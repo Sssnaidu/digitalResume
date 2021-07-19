@@ -7,100 +7,106 @@
     font-family: 'Merriweather', serif;
 }
 
-.column1{
-    background-image: url(../images/Laptop1.jpg);
-    height: 750px;
+.header-section{
+    background-image: url(../images/coding1.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
     max-width: 100%;
-    background-size: cover;
+    width: 99%;
+    height: 30%;
     text-align: center;
+    text-transform: bold;
 }
 
-.header{
+.header-text{
+    padding: 7%;
+    text-shadow: black 45px 30px 15px;
+}
+
+.navbar{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 5%;
+}
+
+.about-text{
+    background-color: black;
+    padding: 5%;
     color: white;
-    text-shadow: black 5px 10px 20px;
-}
-
-.column-header{
-    height: 100px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.959);
-    text-align: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    text-shadow: black 5px 5px 5px;
-    border: 20px ridge grey;
-}
-
-.column2{
-    height: 550px;
-    background-color: rgba(0, 0, 0, 0.959);
-}
-
-.card-container
-{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    padding: 40px 0;
-}
-.card-container .card
-{ 
-    position: relative;
-     width: 320px;
-    height: 440px;
-    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
-                inset -5px -5px 5px rgba(255,255,255,0.5),
-                5px 5px 5px rgba(0,0,0,0.05),
-                -5px -5px 5px rgba(255,255,255,0.5);
-    border-radius: 15px;
-    margin: 30px;
-
-}
-.card-container .card .box
-{ 
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    background: #ebf5fc;
-    box-shadow: 0 10px 20px  rgba(0,0,0,0.1);
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-container .card .box .content
-{ 
-    padding: 20px;
     text-align: center;
 }
-.card-container .card .box .content h2
-{ 
-    position: absolute;
-    top: -10px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(0,0,0,0.05);
-    transition: 1s;
-    pointer-events: none;
+
+.about-gif{
+    max-width: 75%;
+    width: 100%;
+    padding-left: 25%;
 }
 
-.card-container .card .box .content h3
-{ 
-    font-size: 1.8em;
-    color: #777;
-    z-index: 1;
-    transition: 1s;
+.section-title{
+    text-align: center;
+    padding-bottom: 5%;
 }
-.card-container .card .box .content p
-{ 
-    font-size: 1em;
-    font-weight: 300;
-    color: #777;
-    z-index: 1;
-    transition: 1s;
+
+.skills-carousel-inner{
+    padding-left: 42%;
+    height: 30%;
+}
+
+.skills-section{
+    padding-bottom: 5%;
+}
+
+.experience-section{
+    padding-top: 5%;
+    background-color: #339989;
+    color: white;
+}
+
+.experience-columns{
+    display: inline-flex;
+    text-align: center;
+}
+
+.responsibilities{
+    padding-top: 5%;
+    list-style: circle
+}
+
+.education-columns{
+    display: inline-flex;
+    text-align: center;
+}
+
+.modal-button{
+    padding-top: 5%;
+
+}
+
+#education-title{
+    padding-top: 5%;
+}
+
+.contact-picture{
+    display: grid;
+    place-items: center;
+    padding-top: 5%;
+}
+
+.footer-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-scroll{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+#scroll-to-top{
+    color: white;
 }
