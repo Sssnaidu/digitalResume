@@ -53,7 +53,7 @@
 .about-section:hover{
     transform: scale(1.05);
     transition: ease-in-out 500ms;
-    text-shadow: white 3px 3px 10px;
+    text-shadow: white 1px 1px 1px;
 }
 
 .about-gif{
@@ -69,7 +69,7 @@
 
 .section-title:hover{
     text-decoration: underline;
-    text-shadow: black 5px 5px 10px ;
+    text-shadow: black 1px 1px 1px ;
 
 }
 
@@ -107,7 +107,7 @@
 .experience-section:hover{
     transform: scale(1.05);
     transition: ease-in-out 500ms; 
-    text-shadow: white 3px 3px 10px; 
+    text-shadow: white 1px 1px 1px; 
 }
 
 .responsibilities{
@@ -116,9 +116,9 @@
 }
 
 .education-section:hover{
-    transform: scale(1.05);
+
     transition: ease-in-out 500ms;
-    text-shadow: black 3px 3px 10px;  
+    text-shadow: black 1px 1px 1px;  
 }
 
 .education-columns{
@@ -161,9 +161,7 @@
 
 .footer-section{
     background-color: black;
-    color: white;
     text-align: center;
-
 }
 
 .footer-section:hover{
@@ -182,10 +180,9 @@
 }
 
 button:hover{
-    transform: scale(1.05);
     transition: ease-in-out 500ms;  
-    box-shadow: #339989 5px 5px 5px;
-    border-radius: 100%;
+    box-shadow: #339989 5px 5px 10px;
+    border-radius: 50px;
 }
 
 .contact-form > button{
